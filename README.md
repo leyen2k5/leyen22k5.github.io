@@ -1,2 +1,2 @@
 # leyen22k5.github.io
-My personal website
+Learning GibHub is fun.
