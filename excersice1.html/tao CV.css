@@ -12,7 +12,7 @@ body {
     overflow: hidden;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(240, 195, 195, 0.1);
+    box-shadow: 0 4px 8px rgba(242, 231, 231, 0.1);
 }
 
 .navbar ul {
@@ -33,7 +33,7 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #333;
+    color: #2f2d2d;
     transition: background-color 0.3s, color 0.3s;
 }
 
