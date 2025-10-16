@@ -1,8 +1,7 @@
-
 .ProductDetails {display:none;}
 .Product img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #aaa;
 
@@ -12,7 +11,7 @@
 .ProductPrice:before {content: " - ";}
 .Product {
     text-align: center;
-    width: 150px;
+    width: 120px;
     margin: 0px 20px;
     float: left;
     cursor: pointer;
