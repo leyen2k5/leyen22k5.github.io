@@ -1,38 +1,41 @@
+/* ----- HEADER ----- */
 #header {
     background: url(images/header.jpg);
     height: 181px;
     width: 900px;
-    margin-left: 20%;
-    margin-right: 25%;
-
+    margin: 0 auto; /* Căn giữa header */
 }
+
+/* ----- LOGO ----- */
 #logo {
     padding: 20px 0 0 50px;
 }
 
+/* ----- MENU CHÍNH (LEVEL 1) ----- */
 #menu_top {
     margin-top: 55px;
     margin-left: 30px;
-    background: #ffffff;
+    background-color: rgba(255, 255, 255, 0.6); /* Làm nền trong suốt nhẹ */
     height: 40px;
-    opacity: 0.6;
     border-radius: 10px 0px 0px 10px;
-
-
 }
+
 .level1 {
-    list-style-type: none;
+    list-style-type: none; /* Bỏ dấu chấm đầu dòng */
     padding-top: 12px;
- 
+    margin: 0;
 }
 
 .level1 li {
     display: inline;
-    float:left;
-    padding: 0px 20px 0px 0px;
+    float: left;
+    padding: 0 20px 0 0;
     height: 27px;
-    font-size: bold;
+    font-weight: bold; /* In đậm đúng cách */
+    position: relative; /* Để menu con định vị theo li cha */
 }
+
+/* ----- LINK MENU CHÍNH ----- */
 .level1 li a,
 .level1 li a:visited {
     color: red;
@@ -43,16 +46,24 @@
     color: green;
 }
 
+/* ----- MENU CON (LEVEL 2) ----- */
 .level2 {
-    display: none;
+    display: none; /* Ẩn mặc định */
     position: absolute;
-    padding: 0px;
+    top: 100%; /* Xuất hiện ngay dưới menu cha */
+    left: 0;
+    padding: 0;
     margin-top: 5px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
 }
+
+/* Hiện menu con khi hover vào menu cha */
 .level1 li:hover > .level2 {
     display: block;
 }
 
+/* ----- ITEM TRONG MENU CON ----- */
 .level2 li {
     float: none;
     position: relative;
@@ -62,9 +73,11 @@
     background: #ccc;
 }
 
+/* ----- HIỆU ỨNG HOVER MENU CON ----- */
 .level2 li:hover {
     background: #CC0;
 }
+
 
 
 
