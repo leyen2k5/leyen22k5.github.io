@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="BT1.css">
+</head>
+<body>
+ 
+<form name="frmCal">
+    <table border="0" align="center">
+        <tr><td colspan="2" align="center">
+                <h2>MINI CALCULATOR </h2></td></tr>
+        <tr><td align="right">a = </td>
+            <td><input name="txta" /></td></tr>
+        <tr><td align="right">b = </td>
+            <td><input name="txtb" /></td></tr>
+        <tr><td align="right">Operator: </td>
+            <td><select name="slto">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+                    <option value="^">a ^ b</option>
+<option value="sqrt">√a</option>
+<option value="abs">|a|</option>
+<option value="round">Round(a)</option>
+<option value="max">Max(a, b)</option>
+<option value="min">Min(a, b)</option>
+
+                </select>
+            </td></tr>
+        <tr><td align="right">Result: </td>
+            <td><p id="result">__</p></td>
+        <tr><td colspan="2" align="center">
+                <input type="button" value="Calculate"
+                       onClick="calculate()">
+            </td></tr>
+            <option value="^">a ^ b</option>
+
+    </table>
+</form>
+<script src="JS script.js"></script>
+</body>
+</html>
+
+    
+</body>
+</html>
