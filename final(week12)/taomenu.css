@@ -14,3 +14,15 @@ nav {
         nav a:hover {
             color: #c452aa;
         }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;}
+             th, td {
+            border: 1px solid #a16c6c;
+            padding: 8px;
+            text-align: left;
+        }
+        tr:hover {
+            background-color: #b67f7f;
+        }
