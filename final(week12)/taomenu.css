@@ -1,0 +1,16 @@
+nav {
+            background-color: #0a0404;
+            padding: 15px;
+            text-align: center;
+            
+        }
+        nav a {
+            color: rgb(232, 229, 229);
+            text-decoration:none;
+            margin: 0 10px;
+           
+          
+        }
+        nav a:hover {
+            color: #c452aa;
+        }
